@@ -1,0 +1,25 @@
+Objetivo del Ejercicio: 
+
+Simulación de un Banco Digital
+
+Este ejercicio tiene como finalidad crear una simulación básica de un sistema bancario digital 
+donde los usuarios pueden realizar tres acciones principales:
+
+1. Depósito: 
+Permite al usuario agregar dinero a su saldo actual. 
+Se captura la cantidad a depositar y se actualiza el saldo.
+
+2. Retiro: 
+Permite al usuario retirar dinero de su saldo. Se verifica si el saldo es suficiente antes de procesar el retiro. 
+Si el monto solicitado es mayor que el saldo disponible, se solicita al usuario que ingrese una nueva cantidad.
+
+3. Consulta de saldo: 
+Permite al usuario ver su saldo actual en cualquier momento.
+
+Con el ciclo do-While El sistema continuará mostrando el menú de opciones hasta que el usuario decida finalizar 
+la operación seleccionando la opción correspondiente (#4). 
+La estructura del código está diseñada para ser simple y fácil de entender, utilizando switch 
+para manejar las diferentes opciones del menú.
+
+Este ejercicio ayuda a practicar el uso de estructuras de control, manejo de variables 
+y la interacción básica con el usuario a través de prompt y console.log.
